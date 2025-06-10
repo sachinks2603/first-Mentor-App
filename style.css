@@ -30,7 +30,7 @@ body{
 main{
     width: 32rem;
     height: 49.9rem;
-    background: hsl(0, 0%, 100%);
+    background: var(--white-color);
     border-radius: 1rem;
     display: flex;
     justify-content: flex-start;
