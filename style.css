@@ -65,9 +65,23 @@ main .text h1{
 main .text p{
     width: 25.6rem;
     height: 6.3rem;
-    font-size: 1.45rem;
+    font-size: 1.3rem;
     line-height: 140%;
     text-align: center;
     letter-spacing: .02rem;
     color: var(--slate-500-color);
+}
+
+
+footer .attribution { 
+    position: absolute;
+    bottom:  2rem;
+    left: 0;
+    right: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer .attribution a {
+     color: hsl(228, 45%, 44%); 
 }
