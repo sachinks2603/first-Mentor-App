@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white-color: hsl(0, 0%, 100%);
+    --slate-300-color: hsl(212, 45%, 89%);
+    --slate-500-color: hsl(216, 15%, 48%);
+    --slate-900-color: hsl(218, 44%, 22%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Outfit', 'Roboto', sans-serif;
+    background: var(--slate-300-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 32rem;
+    height: 49.9rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img{
+    margin: 1.6rem 1.6rem 0;
+    width: 28.8rem;
+    border-radius: 1rem;
+}
+
+main .text{
+    width: 28.8rem;
+    height: 13.1rem;
+    margin: 2.4rem 1.6rem 0;
+    padding: 0 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main .text h1{
+    width: 25.6rem;
+    height: 5.2rem;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 120%;
+    color:  var(--slate-900-color);
+}
+main .text p{
+    width: 25.6rem;
+    height: 6.3rem;
+    font-size: 1.45rem;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: .02rem;
+    color: var(--slate-500-color);
+}
