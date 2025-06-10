@@ -57,7 +57,7 @@ main .text{
 main .text h1{
     width: 25.6rem;
     height: 5.2rem;
-    font-size: 2rem;
+    font-size: 1.85rem;
     font-weight: 700;
     text-align: center;
     line-height: 120%;
@@ -66,7 +66,7 @@ main .text h1{
 main .text p{
     width: 25.6rem;
     height: 6.3rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 140%;
     text-align: center;
     letter-spacing: .02rem;
